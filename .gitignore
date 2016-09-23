@@ -1,0 +1,73 @@
+# Godeps
+Godeps/*
+!Godeps/Godeps.json
+
+# Vendoring
+vendor
+
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Folders
+_obj
+_test
+
+# Architecture specific extensions/prefixes
+*.[568vq]
+[568vq].out
+
+# Coverage related
+**/*.coverprofile
+
+*.cgo1.go
+*.cgo2.c
+_cgo_defun.c
+_cgo_gotypes.go
+_cgo_export.*
+
+_testmain.go
+
+*.exe
+*.test
+*.prof
+
+
+#### IDEA intellij #####
+.idea/
+*.iml
+*.iws
+
+##### eclipse #####
+.project
+.classpath
+.settings/
+.externalToolBuilders/
+maven-eclipse.xml
+
+#### Netbeans #####
+.nbm/
+.nbm
+nb-configuration.xml
+foo.xml
+
+##### Vim #####
+.vimrc
+*.sw?
+
+# Operating System Files
+*.DS_Store
+Thumbs.db
+*.sw?
+.#*
+*#
+*~
+*.sublime-*
+
+#git, kdiff3
+*.orig
+*.BASE.*
+*.BACKUP.*
+*.LOCAL.*
+*.REMOTE.*

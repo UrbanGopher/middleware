@@ -1,0 +1,18 @@
+sudo: false
+
+language: go
+
+go:
+  - 1.7
+
+install:
+  - go get github.com/go-playground/overalls
+  - go get github.com/mattn/goveralls
+  - if ! go get github.com/golang/tools/cmd/cover; then go get golang.org/x/tools/cmd/cover; fi
+
+script:
+  - go test -v -race ./...
+  - $GOPATH/bin/overalls -project=github.com/${TRAVIS_REPO_SLUG} -covermode=count -ignore=.git -debug
+
+after_success:
+  - $GOPATH/bin/goveralls -coverprofile=overalls.coverprofile -service=travis-ci
