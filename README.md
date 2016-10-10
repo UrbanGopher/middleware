@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/UrbanGopher/middleware.svg?branch=master)](https://travis-ci.org/UrbanGopher/middleware)
-[![Coverage Status](https://coveralls.io/repos/github/UrbanGopher/middleware/badge.svg)](https://coveralls.io/github/UrbanGopher/middleware)
+[![Coverage Status](https://coveralls.io/repos/github/UrbanGopher/middleware/badge.svg?branch=master)](https://coveralls.io/github/UrbanGopher/middleware?branch=master)
 [![Go Report Card](https://goreportcard.com/badge/github.com/UrbanGopher/middleware)](https://goreportcard.com/report/github.com/UrbanGopher/middleware)
 
 # Middleware for Golang Services
